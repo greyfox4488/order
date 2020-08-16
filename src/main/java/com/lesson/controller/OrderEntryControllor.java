@@ -72,7 +72,6 @@ public class OrderEntryControllor {
             Cookie ckCid = new Cookie("ckCid",cid);
             ckUseCookie.setMaxAge(expire);
             ckCid.setMaxAge(expire);
-
             response.addCookie(ckUseCookie);
             response.addCookie(ckCid);
         }else{
